@@ -1,6 +1,6 @@
 l,n,i,c=[],int(input("Enter no of elements : ")),0,0 
 for t in range(0, n):
-	e= int(input()) 
+	e= input()
 	l.append(e)
 print("unique elements are:")
 while i < len(l):
